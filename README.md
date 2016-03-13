@@ -1,2 +1,2 @@
 # sublime text 3
-for ubuntu 15
+[Soda sublime-Theme](http://buymeasoda.github.io/soda-theme/)
