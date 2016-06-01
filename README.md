@@ -9,3 +9,7 @@ git checkout sublime-text3-unbuntu15
 git checkout david-vim
 sh use.sh
 ```
+### create development ENV by docker
+```
+docker run -it -v ~/WebstormProjects:/WebstormProjects --name yonyou-fe daocloud.io/ubuntu
+```
