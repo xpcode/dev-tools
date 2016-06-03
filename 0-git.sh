@@ -1,3 +1,6 @@
 #!/usr/bin/env bash
-apt-get update
-apt-get install git
+
+docker run -i -t daocloud.io/centos:7
+
+yum update -y
+yum install git -y
