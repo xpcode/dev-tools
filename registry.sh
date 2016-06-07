@@ -27,3 +27,25 @@ docker pull 139.129.61.221:5000/yonyou/fe:1.0
 # push with --insecure-registry 139.129.61.221:5000
 docker tag yonyou/fe:1.0 139.129.61.221:5000/yonyou/fe:1.0
 docker push 139.129.61.221:5000/yonyou/fe:1.0
+
+# centos 7.1
+yum update -y
+curl -fsSL https://get.docker.com/ | sh
+yum install docker-registry -y
+
+# yum添加源
+yum install epel-release -y
+
+# 安装python-pip
+yum install python-pip -y
+
+# 安装docker-compose
+pip install -U docker-compose
+
+# pull Portus, 修改 http://rubygems.org
+cd ~/
+git clone https://github.com/SUSE/Portus.git
+
+# 修改挂着的volume  /opt/docker-registry
+vi docker-compose.yml.template
+./compose-setup.sh -e 10.25.111.168
