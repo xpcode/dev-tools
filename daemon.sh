@@ -10,3 +10,5 @@ systemctl daemon-reload
 service docker restart
 
 # ps -ef | grep docker
+systemctl restart docker
+docker start portus_db_1 portus_web_1 portus_crono_1 portus_registry_1
