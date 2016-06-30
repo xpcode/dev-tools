@@ -13,11 +13,11 @@
         "command": "workbench.action.zoomOut"
     },
     {
-        "key": "cmd+=",
+        "key": "cmd+-",
         "command": "workbench.action.navigateBack"
     },
     {
-        "key": "cmd+-",
+        "key": "cmd+=",
         "command": "workbench.action.navigateForward"
     }
 ]
