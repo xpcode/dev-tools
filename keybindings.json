@@ -3,5 +3,21 @@
     {
         "key": "cmd+shift+g",
         "command": "workbench.view.git"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "workbench.action.zoomIn"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "workbench.action.zoomOut"
+    },
+    {
+        "key": "cmd+=",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "cmd+-",
+        "command": "workbench.action.navigateForward"
     }
 ]
