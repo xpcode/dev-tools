@@ -1,4 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontSize": 14
+    "editor.fontSize": 14,
+    "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
+    "terminal.integrated.shell.osx": "/bin/zsh"
 }
