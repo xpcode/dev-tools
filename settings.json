@@ -1,6 +1,72 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontSize": 14,
-    "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
-    "terminal.integrated.shell.osx": "/bin/zsh"
+  "editor.fontSize": 14,
+  "editor.minimap.showSlider": "always",
+  "editor.cursorStyle": "block",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 24,
+  "editor.renderLineHighlight": "none",
+  "editor.renderWhitespace": "none",
+  "editor.lineNumbers": "on",
+  "editor.minimap.enabled": false,
+  "editor.renderIndentGuides": false,
+  "editor.rulers": [120],
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "explorer.openEditors.visible": 0,
+  "prettier.eslintIntegration": true,
+  "prettier.stylelintIntegration": true,
+  "prettier.tslintIntegration": true,
+  "prettier.singleQuote": true,
+  "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Solarized Dark",
+  "sync.gist": "818ae17c56a523e1e5b73c1d3aa52037",
+
+  // VScode 文件搜索区域配置
+  "search.exclude": {
+    "**/elehukouben": true,
+    "**/build": true,
+    "**/dist": true,
+    "**/tmp": true,
+    "**/yarn.lock": true,
+    "**/.git": true,
+    "**/.gitignore": true,
+    "**/.svn": true,
+    "**/.idea": true,
+    "**/.vscode": false,
+    "**/.DS_Store": true
+  },
+  // 排除文件搜索区域，比如node_modules(贴心的默认设置已经屏蔽了)
+  "files.exclude": {
+    "**/.idea": true,
+    "**/yarn.lock": true,
+    "**/tmp": true
+  },
+  // 配置文件关联，以便启用对应的智能提示，比如wxss使用css
+  "files.associations": {
+    "*.vue": "vue",
+    "*.wxss": "css"
+  },
+  // 配置emmet对文件类型的支持，比如vue后缀文件按照html文件来进行emmet扩写
+  "emmet.syntaxProfiles": {
+    "vue-html": "html",
+    "vue": "html",
+    "javascript": "javascriptreact",
+    // xml类型文件默认都是单引号，开启对非单引号的emmet识别
+    "xml": {
+      "attr_quotes": "single"
+    }
+  },
+  // 在react的jsx中添加对emmet的支持
+  "emmet.includeLanguages": {
+    "jsx-sublime-babel-tags": "javascriptreact"
+  },
+  // 文件保存时，是否自动根据eslint进行格式化
+  "eslint.autoFixOnSave": false
 }
