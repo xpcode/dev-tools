@@ -1,10 +1,6 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     {
-        "key": "cmd+shift+g",
-        "command": "workbench.view.git"
-    },
-    {
         "key": "ctrl+-",
         "command": "workbench.action.zoomIn"
     },
@@ -19,5 +15,23 @@
     {
         "key": "cmd+=",
         "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "cmd+k cmd+d",
+        "command": "-editor.action.moveSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+k cmd+u",
+        "command": "-editor.action.removeCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+k cmd+u",
+        "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "cmd+k cmd+l",
+        "command": "editor.action.transformToLowercase"
     }
 ]
