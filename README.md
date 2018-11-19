@@ -1,8 +1,6 @@
 # Visual Studio Code
 
-[mac-iterm2](https://www.cnblogs.com/xishuai/p/mac-iterm2.html)
-
-## 常用插件
+### 常用插件
 
 - react-definition
 - prettier-vscode
@@ -22,5 +20,11 @@
 - Auto Rename Tag
 - Path Intellisense
 - Project Manager
-- Settings Sync：用于同步vscode配置，多台电脑一份配置（相对而言配置复杂，可不安装）
+- Settings Sync：用于同步 vscode 配置，多台电脑一份配置（相对而言配置复杂，可不安装）
 - Vetur
+
+##### [mac-iterm2](https://www.cnblogs.com/xishuai/p/mac-iterm2.html)
+
+##### GitHub Token: f33870007eb406ed04a0d5c27d9fda5165f3ed57
+
+##### GitHub Gist: 818ae17c56a523e1e5b73c1d3aa52037
