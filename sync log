@@ -1,0 +1,62 @@
+CODE SETTINGS SYNC UPLOAD SUMMARY
+Version: 3.2.7
+--------------------
+GitHub Token: 485d4b3711495e12b8bd36e503eb12c82cb4eff7
+GitHub Gist: 0677730cd8d4b11110de83380b1ba506
+GitHub Gist Type: Secret
+
+Restarting Visual Studio Code may be required to apply color and file icon theme.
+--------------------
+Files Uploaded:
+  extensions.json > extensions.json
+  keybindings.json > keybindingsMac.json
+  settings.json > settings.json
+  c.json > snippets|c.json
+
+Extensions Ignored:
+  No extensions ignored.
+
+Extensions Removed:
+  No extensions removed.
+
+Extensions Added:
+  auto-close-tag v0.5.6
+  auto-rename-tag v0.0.15
+  bracket-pair-colorizer v1.0.61
+  code-beautifier v2.1.0
+  code-settings-sync v3.2.7
+  debugger-for-chrome v4.11.3
+  docthis v0.7.1
+  EditorConfig v0.13.0
+  filenamecomplete v0.0.3
+  gitlens v9.5.1
+  import-beautify v0.2.0
+  java v0.40.0
+  path-intellisense v1.4.2
+  prettier-vscode v1.8.1
+  project-manager v10.4.0
+  python v2019.2.5558
+  react-definition v0.0.1
+  servicedescription v0.0.2
+  sort-imports v6.0.1
+  stylelint v0.48.0
+  Theme-MarkdownKit v0.1.4
+  thrift v0.0.1
+  tslint v1.0.43
+  vetur v0.16.2
+  vscode-eslint v1.8.2
+  vscode-extension-auto-import v1.4.3
+  vscode-icons v8.3.0
+  vscode-import-cost v2.12.0
+  vscode-import-formatter v0.1.8
+  vscode-java-debug v0.17.0
+  vscode-java-dependency v0.3.0
+  vscode-java-pack v0.6.0
+  vscode-java-test v0.15.0
+  vscode-language-pack-zh-hans v1.32.4
+  vscode-markdownlint v0.25.0
+  vscode-maven v0.15.0
+  vscode-pylonn v0.2.1
+  vscodeintellicode v1.1.4
+--------------------
+Done.
