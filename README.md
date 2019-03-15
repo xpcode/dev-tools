@@ -24,7 +24,4 @@
 - Vetur
 
 ##### [mac-iterm2](https://www.cnblogs.com/xishuai/p/mac-iterm2.html)
-
-##### GitHub Token: 9ad7b5093996692373fae1f240e275863b359be0
-
-##### GitHub Gist: d04cf50ba01a3e2c31c6480fa2bcee1b
+https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
